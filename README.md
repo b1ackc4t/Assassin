@@ -70,7 +70,7 @@ get：
 
 ### 配置文件
 
-```json
+```json lines
 {
   "paramNames": ["user", "file", "id", "eid", "wd", "ie", "oq", "name", "son"],
   // get、post、mixed请求参数名的随机池
