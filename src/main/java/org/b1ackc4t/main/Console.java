@@ -149,7 +149,8 @@ public class Console extends Cmd {
                     System.out.println("=================================================");
                     System.out.println("generate webshell, only java temporarily");
                     System.out.println(Config.getYColor("method:") + " Sending mode of payload(value: get|post|mixed|cookie)");
-                    System.out.println(Config.getYColor("reqEncode:") + " request encoding(value: hex|base36|base64)");
+                    System.out.println(Config.getYColor("reqEncode:") + " request encoding(value: hex|base36|base64_1|base64_2)");
+                    System.out.println("\tbase64_1 only support server java version <= 1.8");
                     System.out.println(Config.getYColor("tamper:") + " Predefined template");
                     System.out.format("%15s%s --%s%n", "value: ", "common.txt (default)", "common webshell");
                     System.out.format("%15s%s --%s%n", "", "tomcat7_filter.txt", "memory webshell for tomcat7");
